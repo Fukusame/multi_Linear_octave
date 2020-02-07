@@ -26,6 +26,6 @@ X = [ones(m, 1) X];
 alpha = 0.00001;
 num_iters = 2000;
 theta = zeros(4, 1);
-[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+[theta, J_history] = gradientMulti(X, y, theta, alpha, num_iters);
 theta
 clear
